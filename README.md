@@ -1,45 +1,89 @@
-# MIT Banking App
+# Banking Application
 
-## Overview
+This is a simple yet robust banking application that empowers users to manage their finances with ease. Users can create accounts, log in securely, deposit and withdraw funds, and view their account balances. With an intuitive user interface, this application simplifies financial transactions.
 
-### Title: MIT Banking App
+## Getting Started
 
-### Description:
+To run the application, ensure that you have Node.js and MongoDB installed on your system. Follow the steps below to set up and start the application:
 
-The MIT Banking App is the highlight project for Module 2 in the MIT Fullstack Development with MERN program. Despite its name, suggesting vulnerability, it is a unique opportunity for students to implement their knowledge about key concepts intentionally exposing user data in the UI.
+1. Clone the repository:
 
-This robust React application allows students to demonstrate their understanding of hooks, context, routing, and form validations. It also provides an initial exposure to deploying a React application using AWS S3 Buckets.
+   ```bash
+   git clone https://github.com/your-username/banking-application.git
+   cd banking-application
+   ```
 
-### Running the App
+2. Install dependencies:
 
-To get started, download the source code zip folder or fork and clone the repository to your local machine. Use your IDE of choice to run and explore the app's features.
+   ```bash
+   yarn install
+   ```
 
-### Technologies and Libraries:
+3. Configure environment variables:
+   Create a `.env` file in the project's root directory and provide the necessary environment variables, such as `MONGO_URI` and `JWT_SECRET`.
 
-- React JS
-- Formik
-- Yup Schema Validation
-- React Toastify
-- Material UI
-- Bootstrap
-- ChartJS
+4. Build the application:
 
-### Available Features:
+   ```bash
+   yarn build
+   ```
 
-- Account Creation
-- Account Login
-- Account Editing
-- Transactions Listing
-- Deposit and Withdrawal Functions
-- Totals Chart Display
+5. Launch the application:
 
-Access the deployed application here: **[MIT Banking App](http://kim-savulbankingapp.s3-website-us-east-1.amazonaws.com/)**
+   ```bash
+   yarn start
+   ```
 
-### Upcoming Additions
+   The client application will be accessible at `http://localhost:3000`.
 
-- Backend Implementation
-- Custom Avatar Upload Feature
+## Usage
 
-### Licensing
+### Account Creation
 
-MIT License
+- Navigate to the registration page by clicking "Sign Up" in the navigation bar.
+- Provide your email address and password.
+- Click "Create Account" to establish your account.
+- Upon successful account creation, you will receive a confirmation message.
+
+### Logging In
+
+- Select "Log In" from the navigation bar.
+- Enter your email address and password.
+- Click "Log In" to access your account.
+
+### Logging Out
+
+- Once logged in, your email address or username will appear at the top right corner of the page.
+- Access the navigation bar, click on your logged-in status, and choose "Log Out" to exit your account.
+
+### Depositing Funds
+
+- After logging in, additional options will appear in the navigation bar.
+- Click "Deposit" and specify the desired deposit amount.
+- The balance will automatically update according to the deposit, and this information will persist across login sessions.
+
+### Withdrawing Funds
+
+- Once logged in, additional options will appear in the navigation bar.
+- Click "Withdraw" and enter the desired withdrawal amount.
+- The balance will automatically adjust based on the withdrawal, and this data will persist across login sessions.
+
+## Bonus Features
+
+- Added transaction history for reviewing past deposits and withdrawals.
+- Enhanced security measures and improved error handling.
+- Developed an Access Layout for the frontend.
+- Implemented password hashing and security checks.
+- Work in progress: Adding checking and savings accounts.
+
+## Technologies Utilized
+
+- Frontend: React, Next.js
+- Backend: Next.js
+- Database: MongoDB
+- Authentication: JSON Web Tokens (JWT)
+
+## Future Enhancements
+
+- Incorporate multi-currency support.
+- Enable users to update their profile information.
