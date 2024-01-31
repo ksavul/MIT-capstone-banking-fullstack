@@ -1,5 +1,3 @@
-
-
 export default function Card(props) {
   function classes() {
     const bg = props.bgcolor ? " bg-" + props.bgcolor : "";
@@ -9,7 +7,7 @@ export default function Card(props) {
 
   return (
     <div className={classes()} style={{ maxWidth: "18rem" }}>
-      {props.img && <img src={props.img} alt={'Transmis du parent'} />}
+      {props.img && <img src={props.img} alt={"Parent transfer"} />}
       <div className="card-header">{props.header}</div>
       <div className="card-body">
         {props.title && <h5 className="card-title">{props.title}</h5>}

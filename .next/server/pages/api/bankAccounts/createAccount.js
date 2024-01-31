@@ -70,7 +70,7 @@ _helpers_api_dal__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.
 
 // import { apiHandler, usersRepo } from 'helpers/api';
 async function create(req, res) {
-    console.log("Je suis appel\xe9 create bank account  !!", req.body);
+    console.log("Create bank account", req.body);
     await _helpers_api_dal__WEBPACK_IMPORTED_MODULE_1__/* .dal */ .E.createBankAccount(req?.body);
     return res.status(200).json({});
 }

@@ -1,5 +1,5 @@
-import { MongoClient } from 'mongodb';
-import nextConnect from 'next-connect';
+import { MongoClient } from "mongodb";
+import nextConnect from "next-connect";
 
 // Ensure that 'MONGODB_URI' environment variable is set
 if (!process.env.MONGODB_URI) {
@@ -16,9 +16,9 @@ let clientPromise;
 try {
   client = new MongoClient(uri, options);
   clientPromise = client.connect();
-  console.log('connection established');
+  console.log("connection established");
 } catch (error) {
-  console.error('Error connecting to MongoDB:', error);
+  console.error("Error connecting to MongoDB:", error);
 }
 
 export default clientPromise;
