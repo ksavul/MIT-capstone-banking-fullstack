@@ -42,9 +42,9 @@ const TransferModal = ({ show, onHide, accounts, onTransferMoney }) => {
             />
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label>Compte source</Form.Label>
+            <Form.Label>Account From</Form.Label>
             <Form.Select onChange={(e) => setSourceAccount(e.target.value)}>
-              <option value="">Choisir un compte</option>
+              <option value="">Choose account</option>
               {accounts.map((account) => (
                 <option key={account.id} value={account.name}>
                   {account.name}
@@ -53,7 +53,7 @@ const TransferModal = ({ show, onHide, accounts, onTransferMoney }) => {
             </Form.Select>
           </Form.Group>
           <Form.Group className="mb-3">
-            <Form.Label>Target account</Form.Label>
+            <Form.Label>Account To</Form.Label>
             <Form.Select onChange={(e) => setTargetAccount(e.target.value)}>
               <option value="">Choose account</option>
               {accounts.map((account) => (

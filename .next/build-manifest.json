@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ij9UdwOZWBSq3bROA7j8v/_buildManifest.js",
-    "static/ij9UdwOZWBSq3bROA7j8v/_ssgManifest.js"
+    "static/ryiuFkKPLKFmpt8n4-r36/_buildManifest.js",
+    "static/ryiuFkKPLKFmpt8n4-r36/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -14,56 +14,56 @@
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/index-ee3be7f679cbf074.js"
+      "static/chunks/pages/index-3ff92890e3411273.js"
     ],
     "/AllData": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/AllData-d494d02c0f039931.js"
+      "static/chunks/pages/AllData-a332ce4882151dbb.js"
     ],
     "/Balance": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/Balance-6edcbf3500b55e7a.js"
+      "static/chunks/pages/Balance-d6afcfa7291ddcd3.js"
     ],
     "/BankAccounts": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
       "static/chunks/200-f2fd57cda19c4e2b.js",
-      "static/chunks/pages/BankAccounts-ab92d76e7a7e7054.js"
+      "static/chunks/pages/BankAccounts-b6563a0bcdd3db6f.js"
     ],
     "/CreateAccount": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/CreateAccount-4b65b42fca4236a4.js"
+      "static/chunks/pages/CreateAccount-4c1db4c08700d1ec.js"
     ],
     "/Deposit": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/Deposit-d152e5d8621c83f2.js"
+      "static/chunks/pages/Deposit-c14db22918be8e25.js"
     ],
     "/Home": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/Home-dd69a057f43c0be4.js"
+      "static/chunks/pages/Home-7dd31e7f99199c17.js"
     ],
     "/Login": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/Login-a82cd9f64f725c4c.js"
+      "static/chunks/pages/Login-86d18c404db26fe3.js"
     ],
     "/Withdraw": [
       "static/chunks/webpack-ee7e63bc15b31913.js",
       "static/chunks/framework-7a7e500878b44665.js",
       "static/chunks/main-ab47fb9bee38a4da.js",
-      "static/chunks/pages/Withdraw-3c9cbebe9633f93b.js"
+      "static/chunks/pages/Withdraw-7a663fc78ac1aebd.js"
     ],
     "/_app": [
       "static/chunks/webpack-ee7e63bc15b31913.js",

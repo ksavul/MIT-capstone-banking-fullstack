@@ -203,7 +203,7 @@ async function create({ email, name, password }) {
     UserDB.insertOne(user, {
         w: 1
     }).then((resultat)=>{
-        console.log("UserCr\xe9\xe9");
+        console.log("UserCreated");
     }).catch((err)=>{
         throw err;
     });

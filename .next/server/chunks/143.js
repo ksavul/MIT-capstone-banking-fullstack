@@ -25,7 +25,7 @@ function Card(props) {
         children: [
             props.img && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                 src: props.img,
-                alt: "Transmis du parent"
+                alt: "Parent transfer"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 className: "card-header",
